@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Aplicação Angular - Pick';
+  description = 'Lion';
+  urlImage = 'https://thumbs.dreamstime.com/b/wildlife-male-african-lion-sitting-alone-field-58565882.jpg';
 }
