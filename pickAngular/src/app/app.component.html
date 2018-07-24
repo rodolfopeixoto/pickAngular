@@ -1,2 +1,5 @@
-<h1>{{title}}</h1>
-<img class="img-thumbnail" [src]="urlImage" [alt]="description" />
+<pmcg-photo 
+*ngFor="let photo of photos" 
+[url]="photo.url" 
+[description]="photo.description">
+</pmcg-photo>

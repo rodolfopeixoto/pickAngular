@@ -11,3 +11,10 @@ services:
       - '49153'
     volumes:
       - './pickAngular/:/usr/app/'
+  api:
+    build: .
+    command: 'npm start'
+    ports:
+      - '3000:3000'
+    volumes:
+      - './api/:/usr/app/api'
